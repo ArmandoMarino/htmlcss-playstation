@@ -17,7 +17,25 @@ min-height: 600px;
 background-position: 50% 0%;
 }
 
+#it-takes-two{
+background-image: url(../img/jumbo-bg.png);
+min-height: 600px;
+background-position: 50% 0%;
+}
 
-#jumbotron figure{
 
+footer{
+    background-color: blue;
+}
+
+.ps-footer-up{
+    width: 100px;
+}
+
+.ps-footer-down{
+    width: 150px;
+}
+
+.globe{
+    width: 20px;
 }
