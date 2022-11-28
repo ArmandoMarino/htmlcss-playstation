@@ -1,0 +1,23 @@
+#up-header{
+    min-height: 50px;
+    background-color: goldenrod;
+}
+
+/* TO DO RIMUOVERE */
+/* .col-12{
+    min-height: 200px;
+} */
+
+
+
+
+#jumbotron{
+background-image: url(../img/jumbo-bg.png);
+min-height: 600px;
+background-position: 50% 0%;
+}
+
+
+#jumbotron figure{
+
+}
