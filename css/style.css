@@ -1,24 +1,46 @@
-#up-header{
-    min-height: 40px;
-    background-color: #000000;
+/* GENERICS */
+
+
+
+/* UTILS */
+.orange-bg{
+    background-color: #cd3d0f;
 }
 
-/* TO DO RIMUOVERE */
-/* .col-12{
-    min-height: 200px;
-} */
-
+.rounded-20{
+    border-radius: 2rem;
+}
 
 .w-70{
     width: 70%;
 }
 
 
+
+/* HEADER */
+#up-header{
+    min-height: 40px;
+    background-color: #000000;
+}
+
+/* JUMBOTRON */
 #jumbotron{
 background-image: url(../img/jumbo-bg.png);
 min-height: 600px;
 background-position: 50% 0%;
 }
+
+/* GALLERY-UP */
+#gallery-up figure{
+    border-radius: 2rem;
+    border: 2px solid transparent;
+}
+
+#gallery-up figure:hover{
+    border: 2px solid #0072ce;
+}
+
+
 
 #it-takes-two{
 background-image: url(../img/jumbo-bg.png);
