@@ -1,5 +1,7 @@
 /* GENERICS */
-
+/* !.btn:hover {
+    background-color: initial;
+} */
 
 
 /* UTILS */
@@ -14,8 +16,6 @@
 .w-70{
     width: 70%;
 }
-
-
 
 /* HEADER */
 #up-header{
@@ -41,21 +41,24 @@ background-position: 50% 0%;
     border: 2px solid #0072ce;
 } */
 
+/* IT TAKES TWO */
 #it-takes-two{
 background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 min-height: 600px;
 background-position: 50% 0%;
 }
 
+/* GALLERY DOWN */
 #gallery-down{
     background-color: #1f1f1f;
 }
 
-
+/* PS PLUS */
 #ps-plus{
     background-color: #bebcbb;
 }
 
+/* PS NOW */
 #ps-now{
     background-color: #161c3b;
 }
@@ -76,6 +79,7 @@ footer{
 
 .footer-up a{
     color: white;
+    text-decoration: none;
 }
 
 /* FOOTER DOWN */
@@ -90,4 +94,3 @@ footer{
 .footer-down p{
     font-size: 12px;
 }
-
