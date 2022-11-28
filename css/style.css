@@ -1,6 +1,6 @@
 #up-header{
-    min-height: 50px;
-    background-color: goldenrod;
+    min-height: 40px;
+    background-color: #000000;
 }
 
 /* TO DO RIMUOVERE */
@@ -9,6 +9,9 @@
 } */
 
 
+.w-70{
+    width: 70%;
+}
 
 
 #jumbotron{
