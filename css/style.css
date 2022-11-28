@@ -8,7 +8,7 @@
 }
 
 .rounded-20{
-    border-radius: 2rem;
+    border-radius: 20px;
 }
 
 .w-70{
@@ -36,9 +36,10 @@ background-position: 50% 0%;
     border: 2px solid transparent;
 }
 
-#gallery-up figure:hover{
+/* !HOVER BONUS BORDER */
+/* #gallery-up figure:hover{
     border: 2px solid #0072ce;
-}
+} */
 
 #it-takes-two{
 background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -55,14 +56,29 @@ background-position: 50% 0%;
     background-color: #bebcbb;
 }
 
+#ps-now{
+    background-color: #161c3b;
+}
+
+/* FOOTER */
 footer{
     background-color: blue;
 }
 
+/* FOOTER UP */
 .ps-footer-up{
     width: 100px;
 }
 
+.footer-up ul{
+    list-style-type: none;
+}
+
+.footer-up a{
+    color: white;
+}
+
+/* FOOTER DOWN */
 .ps-footer-down{
     width: 150px;
 }
@@ -70,3 +86,8 @@ footer{
 .globe{
     width: 20px;
 }
+
+.footer-down p{
+    font-size: 12px;
+}
+
