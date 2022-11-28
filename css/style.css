@@ -40,12 +40,14 @@ background-position: 50% 0%;
     border: 2px solid #0072ce;
 }
 
-
-
 #it-takes-two{
 background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 min-height: 600px;
 background-position: 50% 0%;
+}
+
+#gallery-down{
+    background-color: #1f1f1f;
 }
 
 
