@@ -54,6 +54,14 @@ background-position: 50% 0%;
     border: 0;
 }
 
+#no-limits img{
+    filter: opacity(50%);
+}
+
+#no-limits img:hover{
+    filter: opacity(1);
+}
+
 #no-limits .console .col:hover{
     cursor: pointer;
     border-bottom: 2px solid #0072ce;
