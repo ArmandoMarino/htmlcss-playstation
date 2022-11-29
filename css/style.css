@@ -36,6 +36,16 @@ background-position: 50% 0%;
     border: 2px solid transparent;
 }
 
+/* NO LIMITS */
+#no-limits .card{
+    border: 0;
+}
+
+#no-limits .console .col:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #0072ce;
+    border-radius: 0;
+}
 
 /* !HOVER BONUS BORDER */
 /* #gallery-up figure:hover{
