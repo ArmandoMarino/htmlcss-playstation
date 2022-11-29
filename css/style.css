@@ -32,10 +32,23 @@ background-position: 50% 0%;
 
 /* GALLERY-UP */
 #gallery-up figure{
-    border-radius: 2rem;
+    border-radius: 20px;
     border: 2px solid transparent;
+    animation-duration: 100s;
+    animation-iteration-count: linear;
+    transform-origin: bottom;
+    cursor: pointer;
 }
 
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(-20px); }
+  50%  { transform: translateY(-20px); }
+  100% { transform: translateY(-20px); }
+}
 /* NO LIMITS */
 #no-limits .card{
     border: 0;
@@ -48,9 +61,9 @@ background-position: 50% 0%;
 }
 
 /* !HOVER BONUS BORDER */
-/* #gallery-up figure:hover{
+#gallery-up figure:hover{
     border: 2px solid #0072ce;
-} */
+}
 
 /* IT TAKES TWO */
 #it-takes-two{
