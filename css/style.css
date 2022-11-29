@@ -1,7 +1,7 @@
 /* GENERICS */
-/* !.btn:hover {
-    background-color: initial;
-} */
+.dropdown-menu.show {
+    display: flex;
+}
 
 
 /* UTILS */
