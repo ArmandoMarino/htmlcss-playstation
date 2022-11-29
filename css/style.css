@@ -54,11 +54,11 @@ background-position: 50% 0%;
     border: 0;
 }
 
-#no-limits img{
+#no-limits .console img{
     filter: opacity(50%);
 }
 
-#no-limits img:hover{
+#no-limits .console img:hover{
     filter: opacity(1);
 }
 
